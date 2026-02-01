@@ -2,11 +2,8 @@
 # This stores your Terraform state in AWS S3 for safe keeping and team collaboration
 
 terraform {
-  backend "s3" {
-    bucket  = "terraform-state-kudos-app-1312929825"
-    key     = "kudos-app/dev/terraform.tfstate"
-    region  = "us-east-1"
-    encrypt = true
+  backend "local" {
+    path = "terraform.tfstate"
   }
 }
 
