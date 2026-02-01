@@ -1,5 +1,6 @@
 # Simple Terraform Configuration for Kudos App on AWS EKS
 # This creates a basic EKS cluster to run your React application
+# and this is my first project for devops with ci/cd
 
 # Tell Terraform which tools we need
 terraform {
